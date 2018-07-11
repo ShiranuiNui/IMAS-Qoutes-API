@@ -5,7 +5,7 @@ using IMAS_QOTD_API.Model;
 using IMAS_QOTD_API.Repository.Interface;
 namespace IMAS_QOTD_API.Repository
 {
-    class MockQuotesRepositry : IReadOnlyRepository<Qoute>
+    public class MockQuotesRepositry : IReadOnlyRepository<Qoute>
     {
         public Qoute Get(int id) => new Qoute
         {
