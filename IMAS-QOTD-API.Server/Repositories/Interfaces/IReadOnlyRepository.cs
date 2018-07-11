@@ -10,5 +10,6 @@ namespace IMAS_QOTD_API.Repository.Interface
         Task<IEnumerable<T>> GetAllAsync();
         T Get(int id);
         Task<T> GetAsync(int id);
+        int Count();
     }
 }

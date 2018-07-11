@@ -34,5 +34,9 @@ namespace IMAS_QOTD_API.Repository
         {
             throw new NotImplementedException();
         }
+        public int Count()
+        {
+            return 1;
+        }
     }
 }
